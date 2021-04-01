@@ -2,18 +2,30 @@ package tr.edu.medipol.yazortarac;
 
 public class Hesaplama {
 
-	/**
-	 * Tam sayi toplama yapmayı sağlayan method
-	 * 
-	 * @param sayi1 birinci tam sayı
-	 * @param sayi2 ikinci tam sayı
-	 * 
-	 * @return sayi 1 ve sayi 2 toplamını verir
-	 */
+	
 	public static int toplama(int sayi1,int sayi2) {
 			
 			
 		return sayi1+sayi2;
+	
+		}
+	
+	public static int cikarma(int sayi1,int sayi2) {
+		
+		
+		return sayi1-sayi2;
+	
+		}
+	public static int carpma(int sayi1,int sayi2) {
+		
+		
+		return sayi1*sayi2;
+	
+		}
+	public static int bolme(int sayi1,int sayi2) {
+		
+		
+		return sayi1/sayi2;
 	
 		}
 }
